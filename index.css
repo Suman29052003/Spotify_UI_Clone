@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Kanit:wght@300&family=Lato:ital,wght@1,700&family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@0,400;1,300&family=Roboto&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.conatainer {
+    display: flex;
+
+}
+
+.wholeLeft {
+    display: inline-block;
+    width: 34%;
+}
+
+.left {
+    height: 8rem;
+    width: 32vw;
+    background-color: #121212;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.left .searchBar {
+    display: flex;
+    flex-direction: column;
+    color: #b3b3b3;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.left .searchBar h1 {
+    font-size: 18px;
+    padding: 0.4rem;
+
+}
+
+.left .searchBar h1 i {
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.left_2 {
+    background-color: #121212;
+    width: 32vw;
+    height: 32rem;
+    border-radius: 8px;
+    margin: 10px;
+    color: #b3b3b3;
+
+}
+
+.left_2 .library {
+    display: flex;
+    padding: 1rem;
+}
+
+.left_2 .library h1 {
+    font-size: 18px;
+    padding: 0.4rem;
+}
+
+.left_2 .library h1 i {
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.left_2 .library h1 .fa-plus {
+    margin-left: 12rem;
+}
+
+.left_2 .playlist_artist {
+    display: flex;
+    margin-left: 20px;
+}
+
+.left_2 .Playlist1 {
+    margin-left: 15px;
+    margin-right: 10px;
+    background-color: #232323;
+    color: white;
+    height: 27px;
+    padding: 6px;
+    width: 73px;
+    border-radius: 10rem;
+}
+
+.left_2 .Playlist1 p {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.left_2 .Artist1 {
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: #232323;
+    color: white;
+    height: 27px;
+    padding: 6px;
+    width: 73px;
+    border-radius: 10rem;
+}
+
+.left_2 .Artist1 p {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.left_2 .secondSearch {
+    display: flex;
+    padding: 1rem;
+}
+
+.left_2 .secondSearch .fa-magnifying-glass {
+    margin-top: 7px;
+
+
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 17px;
+    padding: 12px
+}
+
+.left_2 .secondSearch .fa-magnifying-glass:hover {
+    border-radius: 50%;
+    background-color: #8d878d96;
+}
+
+.left_2 .secondSearch h1 {
+    font-size: 18px;
+    padding: 0.4rem;
+    align-items: flex-end;
+    margin-left: 19rem;
+    color: #666363;
+}
+
+.left_2 .secondSearch h1:hover{
+    color: white;
+}
+
+.left_2 .secondSearch .fa-caret-down {
+    padding: 0.4rem;
+    margin-left: 5px;
+}
+
+
+
+.song {
+    display: flex;
+}
+
+.songsName .song img {
+    height: 50px;
+    width: 50px;
+    border-radius: 23px;
+    padding: 1rem;
+}
+
+.songsName .song h1 {
+    margin-left: -20px;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+.songsName .song p {
+    margin-top: 47px;
+    margin-left: -109px;
+}
+
+.songsName .song p i {
+    margin-right: 8px;
+    transform: rotate(45deg);
+}
+
+.songsName {
+    width: 32vw;
+    height: 19rem;
+    overflow: auto;
+}
+
+.songsName::-webkit-scrollbar {
+    width: 12px;
+    /* background-color: white; */
+    border-radius: 8px;
+}
+
+.songsName::-webkit-scrollbar-thumb {
+    background-color: #666363;
+    border-radius: 8px;
+}
+
+.songsName {
+    width: 32vw;
+    height: 19rem;
+
+}
+
+.songsName::-webkit-scrollbar {
+    width: 12px;
+    /* background-color: white; */
+    border-radius: 8px;
+}
+
+.songsName::-webkit-scrollbar-thumb {
+    background-color: #666363;
+    border-radius: 8px;
+}
+
+
+.wholeRight {
+    float: right;
+    width: 64%;
+    background:linear-gradient(to top,#000000,#242424 );
+    height: 40rem;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.rightTop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wholeRight .right .rightTop span {
+    display: inline-flex;
+
+    color: white;
+    padding: 0.9rem;
+    margin: 0.9rem;
+    background-color: #000000;
+    height: 15px;
+    width: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.wholeRight .right .rightTop input {
+    width: 20vw;
+    height: 20px;
+    padding: 0.8rem;
+    margin: 15px;
+    /* margin-bottom: 10px; */
+    /* justify-content: center; */
+    background-color: #242424;
+    border-radius: 25px;
+    border-color: #242424;
+    border: 0;
+}
+
+.wholeRight .right .rightTop input:hover{
+    background:#535252 ;
+    color: white;
+}
+
+.wholeRight .right .rightTop h1 i {
+    margin: 5px;
+
+}
+
+
+
+.wholeRight .right .rightTop h1 {
+    display: flex;
+    font-size: 18px;
+    /* padding-left: 8rem;
+    padding-top: 1.2rem; */
+    color: white;
+    background-color: #000000;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    margin-top: 10px;
+    height: 38px;
+    width: 125px;
+    border-radius: 23px;
+    align-items: center;
+}
+
+.wholeRight .right .rightTop #notification {
+    width: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.wholeRight .right .rightTop #profile {
+    width: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.wholeRight .right .banner {
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.wholeRight .banner h1 {
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.wholeRight .right .banner #banners {
+    display: flex;
+    flex-direction: row;
+}
+
+.wholeRight .right .banner #banners .multiple {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    padding: 1rem;
+    margin: 0rem -0.2rem;
+    margin-left: 1.8rem;
+    height: 15rem;
+    width: 10rem;
+    border-radius: 8px;
+}
+
+
+
+.wholeRight .right .banner #banners .multiple img {
+    height: 12rem;
+    width: 10rem;
+    padding: 0px;
+    box-shadow: 5px 5px 10px rgba(66, 65, 65, 0.5);
+    border-radius: 8px;
+}
+
+.wholeRight .right .banner #banners .multiple p {
+    margin: 20px;
+    justify-content: center;
+    margin: 2px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+#banners .multiple #p {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666363;
+}
+
+.wholeRight .right .scrollBar {
+    overflow: auto;
+    max-height: 35rem;
+}
+
+.wholeRight .right .scrollBar::-webkit-scrollbar {
+    width: 12px;
+    /* background-color: white; */
+    border-radius: 8px;
+}
+
+.wholeRight .right .scrollBar::-webkit-scrollbar-thumb {
+    background-color: #666363;
+    border-radius: 8px;
+}
+
+.right .dailyMixText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .dailyMixText h1 {
+    color: #fff;
+    font-size: 18px;
+    margin: 1rem;
+}
+
+.right .dailyMixText #h {
+    color: #666363;
+}
+
+.dailyMix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Four items in a row */
+    gap: 10px;
+    /* Adjust the gap as needed */
+    margin: 20px;
+    width: 40rem;
+}
+
+.dailyMix .flexItem {
+    background-color: #171717;
+    padding: rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+}
+
+.dailyMix .flexItem:hover{
+    background-color: #5e5d5d83;
+transition: ease-in 0.2s;
+}
+
+.dailyMix .flexItem img {
+    height: 14rem;
+    width: 12rem;
+    margin: 14px;
+    border-radius: 7px;
+}
+
+.dailyMix .flexItem p {
+    color: white;
+    margin-left: 16px;
+    margin-top: -2px;
+    font-weight: bolder;
+}
+
+.dailyMix .flexItem #p {
+    margin: 16px;
+    font-weight: lighter;
+    color: #666363;
+}
+
+.right .disClaimer{
+    display: flex;
+    color: #666363;;
+    justify-content: space-between;
+}
+
+.right .disClaimer ul{
+    margin: 2rem;
+    font-size: 16px;
+
+}
+
+.right .disClaimer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.right .disClaimer ul #heading{
+    color: white;
+    font-weight: bolder;
+}
+
+.right .disClaimer .socialIcons{
+    display: flex;
+    justify-content: center ;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1rem;
+
+}
+
+.right .disClaimer .socialIcons li{
+
+    padding: 25px;
+    color: #fff;  
+}
+
+.right .disClaimer .socialIcons li i{
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 50%;
+}
+
+.pannel{
+    display: flex;
+ 
+}
+.playing{
+    display: flex;
+}
+
+.panel .leftPanel{
+    display: flex;
+    
+    align-items: center;
+}
+
+.panel .Panel img{
+    height: 4rem;
+    width: 4rem;
+    margin: 10px;
+}
+
+.panel .Panel p{
+    color: white;
+}
+
+.panel .Panel #singer{
+    color: #666363;
+    font-size: 14px;
+    margin: 5px;
+}
+.fa{
+    color: #666363;
+    margin: 1.5rem;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.footer .rightPanel i{
+    margin-left: 0px;
+}
